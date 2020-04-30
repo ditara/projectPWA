@@ -20,6 +20,13 @@ module.exports = {
   /*
   ** Build configuration
   */
+
+  modules: [
+  '@nuxtjs/axios',
+  '@nuxtjs/dotenv',
+  '@nuxtjs/bulma'
+  ],
+
   build: {
     /*
     ** Run ESLint on save
