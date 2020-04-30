@@ -24,7 +24,9 @@ module.exports = {
   modules: [
   '@nuxtjs/axios',
   '@nuxtjs/dotenv',
-  '@nuxtjs/bulma'
+  '@nuxtjs/bulma',
+  '@nuxtjs/pwa',
+  'bootstrap-vue/nuxt',
   ],
 
   build: {
